@@ -1,0 +1,87 @@
+
+<div class="home-page">
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <h3><i class="fa fa-mobile"></i> Responsive</h3>
+                    <h4>with the help of bootstrap</h4>
+                    <p>
+                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3><i class="fa fa-cogs"></i>Implements MVC</h3>
+                      <h4>with the help of Angular</h4>
+                    <p>
+                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3><i class="fa fa-heart"></i> lorem ipsum dolor sit amet</h3>
+                    <p>
+                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    </p>                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.section -->
+
+    <div class="section-colored text-center">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Welcome to my site</h2>
+                    <p>A responsive website featuring single page templates and Bootstrap</p>
+                    <hr>
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.section-colored -->
+
+    <div class="section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    Well, this is not really about my resume.<br/>
+                     <b>this one is for you Payrix.</b><br/>
+                    I heard you often asks your candidates to submit an MVC app that takes an ID and displays all records in a table that are greater than that ID.
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <lable> Search box 
+                      <input id="idSearch" ng-model="searchNumber" type="number">
+                      </label>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                    <h2>List:</h2>
+                        <ul ng-repeat="item in myData | filter:greaterThan(searchNumber)" class="list-group">
+                            <li class="list-group-item">
+                                {{item}}
+                            </li>
+                        </ul>
+                </div>
+
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.section -->
+
+</div>
