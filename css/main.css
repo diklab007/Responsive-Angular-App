@@ -12,7 +12,15 @@ body {
 .dropdown {
     cursor:pointer;
 }
+#welcome{
+    background: url(../assets/pics/woman2.jpg) center center no-repeat;
+    background-size: cover;
 
+}
+
+#welcome > div {
+ background-color: rgba(255,255,255,0.3);
+}
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
