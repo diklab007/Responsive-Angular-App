@@ -20,3 +20,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     // else 
     .otherwise("/", {templateUrl: "views/home.html"});
 }]);
+
+angular.module('myApp').controller('headerCtrl', function ($scope) {
+  $scope.isNavCollapsed = true;
+});
