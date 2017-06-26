@@ -21,6 +21,11 @@ body {
 #welcome > div {
  background-color: rgba(255,255,255,0.3);
 }
+
+#idSearch{
+    width:100%;
+}
+
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
@@ -68,6 +73,3 @@ footer {
     margin: 50px 0;
 }
 
-#idSearch{
-    width:100%;
-}

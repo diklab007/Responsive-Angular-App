@@ -18,7 +18,7 @@ app.controller('SkillsPageCtrl', function ( $scope) {
                     callback: function(value, index, values) {
 
                     if(value == 1){
-                        var dasLabel='Heard about it..';                             
+                        var dasLabel='Heard about it';                             
                     }
                     if(value == 2){
                         var dasLabel='basic';                            
@@ -27,7 +27,7 @@ app.controller('SkillsPageCtrl', function ( $scope) {
                         var dasLabel='good';                             
                     }
                     if(value == 4){
-                        var dasLabel='awosome';                             
+                        var dasLabel='awesome';                             
                     }
                     if(value == 5){
                         var dasLabel='ninja';                             
