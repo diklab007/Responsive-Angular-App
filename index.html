@@ -24,7 +24,7 @@
 </head>
 <body ng-app="myApp">
 
-<!-- Our Website Content Goes Here -->
+<!-- Website Content Goes Here -->
 <div ng-include='"views/templates/header.html"'></div>
 <div ng-view></div>
 <div ng-include='"views/templates/footer.html"'></div>
@@ -37,10 +37,14 @@
 <script src="js/vendors/angular/angular-route.min.js"></script>
 <script src="js/vendors/angular/angular-touch.min.js"></script>
 <script src="js/vendors/angular/angular-animate.min.js"></script>
+<!-- Vendor: charts -->
+<script src="js/vendors/chart.js"></script>
+<script src="js/vendors/angular-chart.min.js"></script>
 
 <!-- Our Website Javascripts -->
 <script src="app.js"></script>
 <script src="services/getData.js"></script>
-<script src="controllers/homePage.js"></script>
+<script src="controllers/homePageCtrl.js"></script>
+<script src="controllers/skillsPageCtrl.js"></script>
 </body>
 </html>

@@ -1,12 +1,4 @@
-// app.service('JSONService', function($scope, $http ) {
-//     this.get = function() {
-//         $http.get('assets/data.json')
-//         .then(function(res, $scope){
-//          //$scope.myData = res.data;                
-//         });
-//     };
-// });
-
+//Pretending data came from database
 app.factory('JSONService', function($http) {
   var myService = {
     get: function() {
